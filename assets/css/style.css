@@ -554,6 +554,7 @@ section {
   }
 }
 
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -592,6 +593,65 @@ section {
     max-width: 90%;
   }
 }
+
+
+/*--------------------------------------------------------------
+# callCenter
+--------------------------------------------------------------*/
+.callCenter h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #4e4039;
+}
+
+.callCenter h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+  color: #7a6960;
+}
+
+.callCenter i {
+  font-size: 48px;
+  margin-top: 15px;
+  color: #f39e7a;
+}
+
+.callCenter p {
+  font-size: 15px;
+  color: #5a6570;
+}
+
+.callCenter button{
+  background: #eb5d1e;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.callCenter button:hover{
+  background: #f39e7a;
+}
+
+@media (max-width: 991px) {
+  .callCenter .callCenter-img img {
+    max-width: 70%;
+    margin-top: 50px;  
+  }
+  .callcenter-button{
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .callCenter .callCenter-img img {
+    max-width: 90%;
+    margin-top: 50px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Services
