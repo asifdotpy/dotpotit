@@ -6,7 +6,9 @@
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     }
-    
+    .jobDescription{
+        color: #7a6960;
+    }
     .apply .info i {
         font-size: 20px;
         color: #eb5d1e;
@@ -142,6 +144,14 @@
     
     .apply .php-email-form input, .apply select, .apply option {
         height: 44px;
+    }
+    .apply #position{
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+        font-size: 14px;
+        border: 1px solid rgb(216, 214, 214);
+        outline: none;
     }
 
     .apply .php-email-form .file{

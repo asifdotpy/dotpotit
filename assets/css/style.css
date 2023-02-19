@@ -558,6 +558,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#about{
+  background-color: #fef8f5;
+}
 .about h3 {
   font-weight: 700;
   font-size: 34px;
@@ -574,7 +577,7 @@ section {
 .about i {
   font-size: 48px;
   margin-top: 15px;
-  color: #f39e7a;
+  color: #eb5d1e;
 }
 
 .about p {
@@ -614,7 +617,7 @@ section {
 .callCenter i {
   font-size: 48px;
   margin-top: 15px;
-  color: #f39e7a;
+  color: #eb5d1e;
 }
 
 .callCenter p {
@@ -656,6 +659,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#services{
+  background-color: #fff;
+}
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -678,7 +684,7 @@ section {
   font-size: 48px;
   line-height: 1;
   margin-bottom: 15px;
-  color: #ef7f4d;
+  color: #eb5d1e;
 }
 
 .services .title {

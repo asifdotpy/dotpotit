@@ -98,17 +98,21 @@
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
                         <div class="form-group mt-3">
-                            <label for="name">Position</label>
-                            <select class="form-control" name="section" id="Position" placeholder="Please Select The Position you are Applying For">
+                            <label for="name">Position</label> <br>
+                            <select class="selectpicker" data-style="btn-secondary" name="Position" id="position">
                                 <option value="FrontEnd">FrontEnd Developer</option>
                                 <option value="BackEnd">BackEnd Developer</option>
                                 <option value="Full Stack">BackEnd Developer</option>
                             </select>
                         </div>
+
+                        <p class="jobDescription">
+                            Our company is committed to providing a positive and supportive work environment for our employees. We believe that this is essential to achieving success and creating a culture that fosters growth and development. We are proud to offer exceptional opportunities to talented individuals who are seeking a career in a dynamic and fast-paced industry.
+                        </p>
                         
                         <div class="form-group mt-3">
-                            <label for="name">Your Name</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            <label for="name">Full Name</label>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Full Name" required>
                         </div>
                         <div class="form-group col-md-6 mt-3 mt-md-0">
                             <label for="email">Your Email</label>
@@ -119,8 +123,8 @@
                             </div>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="name">Your Contact Number</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Contact Number" required>
+                            <label for="name">Phone Number</label>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Phone Number" required>
                         </div>
                     </div>
                     <div class="form-group mt-3">
@@ -135,11 +139,11 @@
                         <label for="name">Upload your CV</label>
                         <input type="file" class="form-control file" name="file" id="file" placeholder="CV"required>
                     </div>
-                    <div class="form-group mt-3">
+                    <!-- <div class="form-group mt-3">
                         <label for="message">Your Bio</label>
                         <textarea class="form-control" name="bio" id="bio" rows="5" required
                         placeholder="Write your Bio"></textarea>
-                    </div>
+                    </div> -->
                     <div class="form-group mt-3">
                         <label for="message">Cover Latter</label>
                         <textarea class="form-control" name="cover" id="cover" rows="10" required
