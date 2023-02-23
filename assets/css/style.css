@@ -357,6 +357,21 @@ h6,
   margin: 72px 0 -72px 0;
 }
 
+.swiper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .swiper-button-next, #hero .swiper-button-prev{
+  color: #eb5d1e;
+}
+
+#hero .swiper-scrollbar{
+  display: none;
+}
+
+
 #hero h1 {
   margin: 0;
   font-size: 48px;
