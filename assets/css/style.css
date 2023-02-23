@@ -357,6 +357,21 @@ h6,
   margin: 72px 0 -72px 0;
 }
 
+.swiper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .swiper-button-next, #hero .swiper-button-prev{
+  color: #eb5d1e;
+}
+
+#hero .swiper-scrollbar{
+  display: none;
+}
+
+
 #hero h1 {
   margin: 0;
   font-size: 48px;
@@ -554,9 +569,13 @@ section {
   }
 }
 
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#about{
+  background-color: #fef8f5;
+}
 .about h3 {
   font-weight: 700;
   font-size: 34px;
@@ -573,7 +592,7 @@ section {
 .about i {
   font-size: 48px;
   margin-top: 15px;
-  color: #f39e7a;
+  color: #eb5d1e;
 }
 
 .about p {
@@ -593,9 +612,71 @@ section {
   }
 }
 
+
+/*--------------------------------------------------------------
+# callCenter
+--------------------------------------------------------------*/
+.callCenter h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #4e4039;
+}
+
+.callCenter h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+  color: #7a6960;
+}
+
+.callCenter i {
+  font-size: 48px;
+  margin-top: 15px;
+  color: #eb5d1e;
+}
+
+.callCenter p {
+  font-size: 15px;
+  color: #5a6570;
+}
+
+.callCenter button{
+  background: #eb5d1e;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.callCenter button:hover{
+  background: #f39e7a;
+}
+
+@media (max-width: 991px) {
+  .callCenter .callCenter-img img {
+    max-width: 70%;
+    margin-top: 50px;  
+  }
+  .callcenter-button{
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .callCenter .callCenter-img img {
+    max-width: 90%;
+    margin-top: 50px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#services{
+  background-color: #fff;
+}
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -618,7 +699,7 @@ section {
   font-size: 48px;
   line-height: 1;
   margin-bottom: 15px;
-  color: #ef7f4d;
+  color: #eb5d1e;
 }
 
 .services .title {
